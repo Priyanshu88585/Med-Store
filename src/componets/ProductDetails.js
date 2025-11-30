@@ -62,7 +62,7 @@ export const ProductDetails = () => {
                         </span>
 
                         <span className="text-indigo-400 mr-1 mt-1">
-                          {t("MAD")}
+                          {t("₹")}
                         </span>
                       </div>
                     </div>
