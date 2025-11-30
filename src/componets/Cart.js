@@ -61,7 +61,7 @@ export default function CartPage() {
                               {data.title}
                             </p>
                             <p className="mx-0 mt-1 mb-0 font-semibold text-sm text-gray-700">
-                              {data.price} {t("MAD")}
+                              {data.price} {t("₹")}
                             </p>
                           </div>
                           <div className="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
@@ -122,7 +122,7 @@ export default function CartPage() {
                       <p className="text-lg font-semibold text-gray-900">
                         25{" "}
                         <span className="text-sm font-normal text-gray-600">
-                          {t("MAD")}
+                          {t("₹")}
                         </span>
                       </p>
                     </div>
@@ -133,7 +133,7 @@ export default function CartPage() {
                     </p>
                     <p className="text-2xl font-semibold text-gray-900">
                       <span className="text-sm font-normal text-gray-600">
-                        {t("MAD")}
+                        {t("₹")}
                       </span>{" "}
                       {totalPrice}
                     </p>
